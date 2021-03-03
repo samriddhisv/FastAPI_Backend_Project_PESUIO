@@ -6,17 +6,17 @@
   With the fields: id, name, price.
 </p>
 
-##details: 
+## details: 
 
-•	@app.get("/courses")
+-	@app.get("/courses")
 can be used to refer to courses and return the entire array. 
-•	@app.get("/courses/{course_id}")
+-	@app.get("/courses/{course_id}")
 can be used to refer to find the specified course_id from course array
-•	@app.post("/courses")
+-	@app.post("/courses")
 can be used to take the course details, convert them into a dictionary and append it to the fakedb(array).
-•	@app.delete("/courses/{course_id}")
+-	@app.delete("/courses/{course_id}")
 can be used to delete a particular course_id
-•	@app.get("/myinfo")
+-	@app.get("/myinfo")
 can be used to refer My information.
 
 
